@@ -1,0 +1,540 @@
+Using pre-set license
+Built from '2022.2/release' branch; Version is '2022.2.1f1 (4fead5835099) revision 5237461'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Cataids/Unity/DynamicAudio
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+22887
+Successfully changed project path to: C:/Users/Cataids/Unity/DynamicAudio
+C:/Users/Cataids/Unity/DynamicAudio
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1296] Host "[IP] 192.168.188.21 [Port] 0 [Flags] 2 [Guid] 149390133 [EditorId] 149390133 [Version] 1048832 [Id] WindowsEditor(7,Desktop-Game) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1296] Host "[IP] 192.168.188.21 [Port] 0 [Flags] 2 [Guid] 149390133 [EditorId] 149390133 [Version] 1048832 [Id] WindowsEditor(7,Desktop-Game) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 14.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.1f1 (4fead5835099)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cataids/Unity/DynamicAudio/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8073 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006792 seconds.
+- Loaded All Assemblies, in  0.427 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.279 seconds
+Domain Reload Profiling:
+	ReloadAssembly (250ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+				TypeCache.Initialize (168ms)
+					TypeCache.ScanAssembly (166ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cataids\Unity\DynamicAudio\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cataids\Unity\DynamicAudio\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.840 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (247ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (590ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (560ms)
+				TypeCache.Initialize (311ms)
+					TypeCache.ScanAssembly (305ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (68.4 KB). Loaded Objects now: 3857.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 4.632000 ms (FindLiveObjects: 0.385600 ms CreateObjectMapping: 0.477800 ms MarkObjects: 3.637400 ms  DeleteObjects: 0.129800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 615363.004765 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 01.wav
+  artifactKey: Guid(aa46b6aa08f874e12887243ebd19b577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 01.wav using Guid(aa46b6aa08f874e12887243ebd19b577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a38f57a7a94bd2aa4e684862599106') in 0.155275 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 08.wav
+  artifactKey: Guid(8fa17e682c1f04cc99fd63eb5e5a2850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 08.wav using Guid(8fa17e682c1f04cc99fd63eb5e5a2850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f6f3b8c1150257109a394989c6c38e') in 0.014506 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/SFX/Footsteps/Leaves/Misc/MISC Leaves, Foot Scrape 05.wav
+  artifactKey: Guid(52770ddb5de064ebb9c57a0828a4b337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Leaves/Misc/MISC Leaves, Foot Scrape 05.wav using Guid(52770ddb5de064ebb9c57a0828a4b337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d42c5b75066adac7b6e56075b948ca3') in 0.012171 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 13.wav
+  artifactKey: Guid(1b4dd7d981e854042874e7a71a6b9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 13.wav using Guid(1b4dd7d981e854042874e7a71a6b9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bc375d77631db06ba68f4b5e00887e') in 0.013533 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/SFX/Footsteps/Leaves/Misc/MISC Leaves, Foot Scrape 03.wav
+  artifactKey: Guid(2822b86730549421285e87d4379ea286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Leaves/Misc/MISC Leaves, Foot Scrape 03.wav using Guid(2822b86730549421285e87d4379ea286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936e0bcfcbc7af91831d8d8e81b895c2') in 0.016881 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 15.wav
+  artifactKey: Guid(cde5fdc89cab9497e907e25684a57db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 15.wav using Guid(cde5fdc89cab9497e907e25684a57db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaf4b78872414c691c0d211803ba343') in 0.015832 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/SFX/Footsteps/Wood/Wood, Creaky/Misc/MISC Wood, Foot Scrape 04.wav
+  artifactKey: Guid(9f1f6a85f8304497fba6ff2d5bcec09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Wood/Wood, Creaky/Misc/MISC Wood, Foot Scrape 04.wav using Guid(9f1f6a85f8304497fba6ff2d5bcec09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1413f774ae43da5f5566cac7d94a3b62') in 0.016522 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 16.wav
+  artifactKey: Guid(fdab1d9ac208f49d59db0c53f4b9d3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 16.wav using Guid(fdab1d9ac208f49d59db0c53f4b9d3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4e11c509eb73c86c3d5d72bfa6562a') in 0.013758 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/SFX/Footsteps/Leaves/Misc/MISC Leaves, Foot Scrape 02.wav
+  artifactKey: Guid(2602d770571d94739bac56698d19f99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Leaves/Misc/MISC Leaves, Foot Scrape 02.wav using Guid(2602d770571d94739bac56698d19f99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acfdd04822e0f0c13bbc5406cf5af02') in 0.018143 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/SFX/Footsteps/Soft Plastic/Misc/MISC Soft Plastic, Scrape 01.wav
+  artifactKey: Guid(6488b757e8b6c420ca787ff82b526c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Soft Plastic/Misc/MISC Soft Plastic, Scrape 01.wav using Guid(6488b757e8b6c420ca787ff82b526c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9848eb3218fa92d6003d0259a025291a') in 0.020040 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio/SFX/Footsteps/Leaves/Misc/MISC Leaves, Foot Scrape 04.wav
+  artifactKey: Guid(7fd9dc83d2f2748d8b18088bc673fe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Leaves/Misc/MISC Leaves, Foot Scrape 04.wav using Guid(7fd9dc83d2f2748d8b18088bc673fe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc4e735eb4bb11b6c85ad3aab3faff4') in 0.018248 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 07.wav
+  artifactKey: Guid(085d2041a74a44fffb2ad1937a4b650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 07.wav using Guid(085d2041a74a44fffb2ad1937a4b650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef3446372a3fb6e0da880d63c816045') in 0.015884 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 03.wav
+  artifactKey: Guid(19c226f6a07c24ba1accddb10cb652f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 03.wav using Guid(19c226f6a07c24ba1accddb10cb652f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d614368111b372d5eb738c94ea244a') in 0.012361 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 27.wav
+  artifactKey: Guid(4a8a736fd0a9e4f7ea4d5c539d3cf250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 27.wav using Guid(4a8a736fd0a9e4f7ea4d5c539d3cf250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145aaba34c9b4472c6f09c6fb540e8bc') in 0.014463 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 01.wav
+  artifactKey: Guid(03b9f3c6dfda041a3848fed9ead95b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 01.wav using Guid(03b9f3c6dfda041a3848fed9ead95b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6688e5cc2fdcef556b279faa2c2b09') in 0.014606 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 20, Long Ending.wav
+  artifactKey: Guid(cb3565b55fc05409f91d06806eb31cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 20, Long Ending.wav using Guid(cb3565b55fc05409f91d06806eb31cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcee83a0403870675db8105fd34653b') in 0.020307 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 09.wav
+  artifactKey: Guid(fe01f2627a9954c0dbf6362575f25c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 09.wav using Guid(fe01f2627a9954c0dbf6362575f25c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482bcca78b5109e7d76217e261820c60') in 0.015698 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 16.wav
+  artifactKey: Guid(8c64c477395b4433a94d8fbd4de950fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 16.wav using Guid(8c64c477395b4433a94d8fbd4de950fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb26cdd8d030321a42a120678ebd41a') in 0.018827 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 09.wav
+  artifactKey: Guid(02b7930aadf754c7289a159b018b8ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 09.wav using Guid(02b7930aadf754c7289a159b018b8ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549c77643bb97f9b998122dbaf063bab') in 0.013312 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 06.wav
+  artifactKey: Guid(f0cbd022399c148babc79ee06b749574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 06.wav using Guid(f0cbd022399c148babc79ee06b749574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65624098393a86a1115aef595c7f1f65') in 0.017236 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 17, Long Ending.wav
+  artifactKey: Guid(eaa750f4e92a8452c83c14a066c52ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 17, Long Ending.wav using Guid(eaa750f4e92a8452c83c14a066c52ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae97c8cc47fced86a6e086512be4d0d') in 0.014682 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 11.wav
+  artifactKey: Guid(08a54d8322c3a44b282d29f1b5ca1bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 11.wav using Guid(08a54d8322c3a44b282d29f1b5ca1bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93083a2779715ae7e09937df56136360') in 0.018474 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 10.wav
+  artifactKey: Guid(d413ae4e1ba384f99b2e9b385e7b52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 10.wav using Guid(d413ae4e1ba384f99b2e9b385e7b52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f22f62c2fb0bb070211349ddc00cd2') in 0.015201 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 15.wav
+  artifactKey: Guid(20354d1cbdb8347acae8af188f592cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 15.wav using Guid(20354d1cbdb8347acae8af188f592cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a539849555a9e9b0316953973a69ef6e') in 0.015714 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 06.wav
+  artifactKey: Guid(a5bf0d16e4522402c881e048ff7a1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 06.wav using Guid(a5bf0d16e4522402c881e048ff7a1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288d7e578eb479b12f9cca6f58ada092') in 0.018057 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 04.wav
+  artifactKey: Guid(789073898de634db88bb574b4db27f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 04.wav using Guid(789073898de634db88bb574b4db27f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9b3f94b8f42e6f2ac65202aaa061d1') in 0.011916 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/SFX/Footsteps/Wood/Wood, Creaky/Misc/MISC Wood, Foot Scrape 02.wav
+  artifactKey: Guid(754a5bd5a3d6b4e54ac61683d63683c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Wood/Wood, Creaky/Misc/MISC Wood, Foot Scrape 02.wav using Guid(754a5bd5a3d6b4e54ac61683d63683c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072859bef03c5391525a4f2dc60fcdf7') in 0.014826 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 02.wav
+  artifactKey: Guid(3d96c5d90fc1444a59e5e866d60f4020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 02.wav using Guid(3d96c5d90fc1444a59e5e866d60f4020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fbb0adad409d47621b60a24071435a') in 0.015778 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/SFX/Footsteps/Water/Misc/MISC Water, Splash 05.wav
+  artifactKey: Guid(438f10b830ff74e6c964635745fcc495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Water/Misc/MISC Water, Splash 05.wav using Guid(438f10b830ff74e6c964635745fcc495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9698d811bb48ba3dad842b1a7c1417d') in 0.013701 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 18, Long Ending.wav
+  artifactKey: Guid(47031ef5a590541fd8c6d6e544f9f9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 18, Long Ending.wav using Guid(47031ef5a590541fd8c6d6e544f9f9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50daa6288bf5b07689c0dab8506f8a2') in 0.015166 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 11.wav
+  artifactKey: Guid(f8df8b1c349484317bd8bc953da30b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 11.wav using Guid(f8df8b1c349484317bd8bc953da30b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f8098917735952e42ce7b35771acc1') in 0.013454 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 14.wav
+  artifactKey: Guid(8f2b00542715046389b546744cce3d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 14.wav using Guid(8f2b00542715046389b546744cce3d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca0bb5b0f683a4a64047a3d23188d78') in 0.013837 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 22, Long Ending.wav
+  artifactKey: Guid(0ffc19f58a13e4fc28e10cefd94ffe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 22, Long Ending.wav using Guid(0ffc19f58a13e4fc28e10cefd94ffe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ff18f2c09c05a15e73558f88671b0e') in 0.017469 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 05.wav
+  artifactKey: Guid(3480424cec993464b895f85c6874b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 05.wav using Guid(3480424cec993464b895f85c6874b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec9cc6b8625a1ee6b5f4626a8cf371e') in 0.015701 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 08.wav
+  artifactKey: Guid(58003e5a290cc49d0a24acf26b4d1458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 08.wav using Guid(58003e5a290cc49d0a24acf26b4d1458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a88b28880dbb4d29b559c39ad8bae2') in 0.015714 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 17.wav
+  artifactKey: Guid(10a710e3ea7864a67a5afe9c01f3e9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 17.wav using Guid(10a710e3ea7864a67a5afe9c01f3e9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53940540a82069197e3ee0bd9d86e7b') in 0.023126 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 14.wav
+  artifactKey: Guid(c85fc821745df4529a86b79f102b2b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Run 14.wav using Guid(c85fc821745df4529a86b79f102b2b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b465432124a2512ba186ef607b558e') in 0.014026 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 06, Scratch, Heavy.wav
+  artifactKey: Guid(c943b9321a4b64b1bb5b1cf1ff2a548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Wood/Wood, Dense/Misc/MISC Wood, Foot Scrape 06, Scratch, Heavy.wav using Guid(c943b9321a4b64b1bb5b1cf1ff2a548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8e24ff5a05307d402e39533183c9c9') in 0.016913 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 12.wav
+  artifactKey: Guid(5d7d08468ed9c4be884563c9837f4ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 12.wav using Guid(5d7d08468ed9c4be884563c9837f4ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635556c600252068edb803915af19a19') in 0.014043 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 10.wav
+  artifactKey: Guid(03acbc4a378c44f0389321fc8df354b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 10.wav using Guid(03acbc4a378c44f0389321fc8df354b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f793638b40ae54cb7ba16329226cef') in 0.014706 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 03.wav
+  artifactKey: Guid(8fa773a551603473ba873d616f03ca8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/STEPS Concrete, Walk 03.wav using Guid(8fa773a551603473ba873d616f03ca8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b58cfc663f9d26ab29f86837555c0b0') in 0.022347 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 04.wav
+  artifactKey: Guid(8b09f6b3fcb65443d9ff5424b6a49ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 04.wav using Guid(8b09f6b3fcb65443d9ff5424b6a49ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8593643a314a28700de4db24ee8e5347') in 0.015636 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Audio/SFX/Footsteps/Water/Misc/MISC Water, Splash 06.wav
+  artifactKey: Guid(bf801119397ee47d2a0bd7bc1633846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Water/Misc/MISC Water, Splash 06.wav using Guid(bf801119397ee47d2a0bd7bc1633846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfae8f5e2ca03e2ad1b9521fe7f5e7a') in 0.017960 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 09.wav
+  artifactKey: Guid(04ad9abc261934f86931bd9c40283b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Concrete/Misc/MISC Concrete, Foot Scrape 09.wav using Guid(04ad9abc261934f86931bd9c40283b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3ae9bac911d8276596a4aeb512cc91') in 0.015973 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/SFX/Footsteps/Wood/Wood, Creaky/Misc/MISC Wood, Foot Scrape 01.wav
+  artifactKey: Guid(3d9bfbd2b48894a5da097ae5f66a4484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Wood/Wood, Creaky/Misc/MISC Wood, Foot Scrape 01.wav using Guid(3d9bfbd2b48894a5da097ae5f66a4484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4785b57834571204270c94732a554e8') in 0.014095 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio/SFX/Footsteps/Water/Misc/MISC Water, Splash 01.wav
+  artifactKey: Guid(7b0350ddf235a49c6a7d433db4ff0609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/SFX/Footsteps/Water/Misc/MISC Water, Splash 01.wav using Guid(7b0350ddf235a49c6a7d433db4ff0609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b191c86a0f2b95bb3eebab411f261fe2') in 0.018922 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
